@@ -5,7 +5,7 @@ import com.project.sustainability.model.SupplierModel;
 import java.util.List;
 
 
-public interface GoalsService {
+public interface SupplierService {
     List<SupplierModel> getSupplierById(String supplierId);
 
 }

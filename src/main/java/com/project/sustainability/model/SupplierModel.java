@@ -18,7 +18,8 @@ public class SupplierModel
     @Id
     private String id;
     private String supplierId;
-    private String pillarGoalId;
+    private String year;
+    private String pillarId;
     private ArrayList<GoalAnswers> goalAnswers;
     private String updatedDt;
     private String updatedUser;
